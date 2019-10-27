@@ -4,7 +4,7 @@ def run_guessing_game
   if user_input = roll 
     puts "You gueessed the correct number"!
   else 
-    puts "Sorry! The computer guessed <number>".
+    puts "Sorry! The computer guessed correct number".
     elsif user_input = exit
     puts "Goodbye"
   end 
