@@ -1,7 +1,7 @@
 def run_guessing_game
   puts "//Get a number between 1 to 6"
   roll=1+rand(6)
-  user_input = gets.chop_to_s
+  user_input = gets.chop.to_s
   if user_input == roll 
     puts "\nYou gueessed the correct number!"
   else 
