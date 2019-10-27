@@ -1,2 +1,2 @@
 def run_guessing_game
-  puts get
+  puts // "Get a number
